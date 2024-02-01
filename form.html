@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Car rental form</h1>
+    <form>
+   
+      <label for="fname">First name:</label>
+      <input id="fname" name="fname" type="text" minlength="2" maxlength="15" size="17" required>
+      <br>
+      <label for="lname">Last name:</label>
+      <input id="lname" name="lname" type="text" minlength="2" maxlength="15" size="17" required>
+      <br>
+      <label for="email">Email:</label>
+      <input id="email" name="email" type="email" size="17" required>
+      <br>
+      <label for="DateBi">date of birth:</label>
+      <input type="date" id="DateBi" name="Date-Bi">
+      <br>
+      <label for="car-select">Car type:</label>
+      <select name="cartype" id="car-select">
+        <option value="Compact">Compact Sedan </option>
+        <option value="Small">Small Sedan</option>
+        <option value="Economy">Economy Sedan</option>
+      </select>
+      <br>
+
+      <label for="rental-duration">rental-duration:</label>
+      <input id="rental-duration" name="rentalDuration" type="number" min="0" max="99">
+      <br>
+
+      <label for="insurance">Would you like to add comprehensive insurance?</label>
+      <input type="checkbox" id="insurance" name="insurance" >
+
+      <br>
+      <label for="startDate">rental start Date:</label>
+      <input type="date" id="DateBi" name="startDate">
+
+      <br>
+      <label for="EndDate">rental End Date:</label>
+      <input type="date" id="EndDate" name="EndDate">
+      
+      <br>
+      <label for="comment">Add comment:</label>
+      <textarea name="comment" id="comment" cols="20" rows="3"></textarea>
+      
+
+
+
+
+      <br>
+      <label for="picture">Upload driving license picture:</label>
+      <input type="file" accept="image/png, image/jpeg" name="picture" id="picture" required>
+
+      <br>
+      <input type="submit" value="Submit">
+
+    </form>
+  
+
+
+
+</body>
+</html>
